@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --background: 216 33% 98%; /* Neutral: Off-white #F9FAFB */
-    --foreground: 222.2 84% 4.9%; /* Neutral: Dark Gray/Black */
+    --background: 0 0% 0%; /* UPDATED: Black */
+    --foreground: 0 0% 98%; /* UPDATED: Light Gray/White for contrast */
 
     --card: 0 0% 100%; /* Neutral: White */
     --card-foreground: 222.2 84% 4.9%;
@@ -54,8 +54,8 @@
   }
 
   .dark {
-    --background: 215 28% 21%; /* Neutral: Dark Gray #1F2937 */
-    --foreground: 210 40% 98%; /* Neutral: Light Gray/White */
+    --background: 0 0% 0%; /* UPDATED: Black */
+    --foreground: 0 0% 98%; /* UPDATED: Light Gray/White for contrast */
 
     --card: 215 19% 27%; /* Neutral: Slightly lighter Dark Gray #374151 */
     --card-foreground: 210 40% 98%;
@@ -82,7 +82,7 @@
     --success-foreground: 210 40% 98%; /* White text */
 
     --warning: 38 92% 50%; /* Warning: Amber #F59E0B */
-    --warning-foreground: 222.2 84% 4.9%; /* Black text */
+    --warning-foreground: 222.2 84% 4.9%; /* Black text for dark theme warning to ensure it's readable */
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
